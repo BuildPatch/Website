@@ -33,19 +33,20 @@ const About = () => {
             />
           </h1>
           <p>
-          Welcome to our company, your go-to destination for comprehensive IT 
-          solutions tailored to fit your budget. We take pride in offering all-in-one 
-          IT services that meet your unique requirements. Our commitment to excellence 
-          means we never compromise on quality or creativity. 
+            Welcome to our company, your go-to destination for comprehensive IT
+            solutions tailored to fit your budget. We take pride in offering
+            all-in-one IT services that meet your unique requirements. Our
+            commitment to excellence means we never compromise on quality or
+            creativity.
           </p>
           <p align="LEFT">
-          With us, you can expect 
-          innovative solutions that align with your needs, ensuring your projects are
-           not only cost-effective but also of the highest standard. 
+            With us, you can expect innovative solutions that align with your
+            needs, ensuring your projects are not only cost-effective but also
+            of the highest standard.
           </p>
           <p>
-          Join us and 
-           experience the perfect blend of affordability, quality, and creativity in every IT solution we provide.
+            Join us and experience the perfect blend of affordability, quality,
+            and creativity in every IT solution we provide.
           </p>
         </div>
 
