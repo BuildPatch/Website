@@ -9,7 +9,28 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['B','u','i','l','d', ' ','P','a','t','c','h','e','s',' ','o','f',' ','c','o','d','e']
+  const nameArray = [
+    'B',
+    'i',
+    'l',
+    'd',
+    ' ',
+    'P',
+    'a',
+    't',
+    'c',
+    'h',
+    'e',
+    's',
+    ' ',
+    'o',
+    'f',
+    ' ',
+    'c',
+    'o',
+    'd',
+    'e',
+  ]
   // const jobArray = [
   //   'w',
   //   'e',
@@ -29,7 +50,7 @@ const Home = () => {
 
   useEffect(() => {
     setTimeout(() => {
-    setLetterClass('text-animate-hover')
+      setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
 
@@ -51,7 +72,7 @@ const Home = () => {
             <span className={`${letterClass} _12`}>W</span>
             <span className={`${letterClass} _13`}>e</span>
             <span className={`${letterClass} _14`}> </span>
-           
+
             {/* <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
@@ -70,7 +91,7 @@ const Home = () => {
           </h1>
           <h2>Website Development / App Development</h2>
           <Link to="/contact" className="flat-button">
-            CONTACT US 
+            CONTACT US
           </Link>
         </div>
         <Logo />
