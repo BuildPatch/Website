@@ -44,10 +44,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-          Have a question, need assistance, or want to discuss your
-          IT needs? We're here to help! Feel free to reach out to us
-          using the contact information below. Our dedicated team
-          is ready to assist you in any way we can.
+            Have a question, need assistance, or want to discuss your IT needs?
+            We're here to help! Feel free to reach out to us using the contact
+            information below. Our dedicated team is ready to assist you in any
+            way we can.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -86,9 +86,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-        Kinfra Hi-Tech Park,
+          Kinfra Hi-Tech Park,
           <br />
-          Kochi, 
+          Kochi,
           <br />
           Kerala 683503 <br />
           India <br />
@@ -96,10 +96,14 @@ const Contact = () => {
           <span>ping@buildpatch.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[10.0551366, 76.3545919]} zoom={13}>
+          <MapContainer
+            style={{ height: '500px', width: '100%' }}
+            center={[10.0551366, 76.3545919]}
+            zoom={13}
+          >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[10.0551366, 76.3545919]}>
-              <Popup>We live here, come over for a cup of coffee :)</Popup>
+              <Popup>Contact us and lets get into some deal</Popup>
             </Marker>
           </MapContainer>
         </div>
