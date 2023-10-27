@@ -11,6 +11,7 @@ const Home = () => {
 
   const nameArray = [
     'B',
+    'u',
     'i',
     'l',
     'd',
