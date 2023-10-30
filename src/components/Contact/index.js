@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -100,7 +100,7 @@ const Contact = () => {
           <br />
           <span>ping@buildpatch.com</span>
         </div>
-        <div className="map-wrap">
+        {/* <div className="map-wrap">
           <MapContainer
             style={{ height: '500px', width: '100%' }}
             center={[10.0551366, 76.3545919]}
@@ -111,7 +111,7 @@ const Contact = () => {
               <Popup>Contact us and lets get into some deal</Popup>
             </Marker>
           </MapContainer>
-        </div>
+        </div> */}
       </div>
       <Loader type="pacman" />
     </>
