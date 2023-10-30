@@ -3,18 +3,18 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
-import Portfolio from './components/Portfolio'
+// import Portfolio from './components/Portfolio'
 import './App.scss'
 
 function App() {
   return (
     <>
-      <Routes>
+      <Routes basename="/buildpatch">
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          {/* <Route path="/portfolio" element={<Portfolio />} /> */}
         </Route>
       </Routes>
     </>
