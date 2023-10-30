@@ -9,7 +9,7 @@ import './App.scss'
 function App() {
   return (
     <>
-      <Routes basename="/buildpatch">
+      <Routes basename="buildpatch.com">
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
