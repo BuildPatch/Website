@@ -10,11 +10,11 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = [
-    'B',
-    'u',
-    'i',
-    'l',
-    'd',
+    'C',
+    'r',
+    'a',
+    'f',
+    't',
     ' ',
     'P',
     'a',
