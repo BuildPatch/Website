@@ -1,6 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/bicon.png'
+import LogoS from '../../assets/images/LOGO ANOTH.png'
 import LogoSubtitle from '../../assets/images/Image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
