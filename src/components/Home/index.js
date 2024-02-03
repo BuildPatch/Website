@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Loader from 'react-loaders'
+// import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 // import LogoTitle from '../../assets/images/bicon.png'
 import Logo from './Logo'
 import './index.scss'
-
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -98,7 +97,17 @@ const Home = () => {
         <Logo />
       </div>
 
-      <Loader type="pacman" />
+      <div class="lds-grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </>
   )
 }

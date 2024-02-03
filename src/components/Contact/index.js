@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Loader from 'react-loaders'
+// import Loader from 'react-loaders'
 // import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
@@ -44,7 +44,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'u', 's']}
+              strArray={['p', 'o', 'n', 't', 'a', 'c', 't', ' ', 'u', 's']}
               idx={15}
             />
           </h1>
@@ -113,7 +113,17 @@ const Contact = () => {
           </MapContainer>
         </div> */}
       </div>
-      <Loader type="pacman" />
+      <div class="lds-grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </>
   )
 }
